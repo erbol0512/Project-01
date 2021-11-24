@@ -11,7 +11,9 @@
     src: url(../fonts/Gilroy/Gilroy-Bold.ttf);
    }
 
-
+* {
+    background-color: #F2F2F2;
+}
 .nav-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -68,4 +70,61 @@
 .nav-btn-02:hover {
     letter-spacing: 1px;
     background-color: #3b9900;
+}
+
+.center-container {
+    /* background-image: url(../img/bg.png);
+    background-repeat: no-repeat; */
+    margin-top: 85px;
+    text-align: center;
+    display: flex;
+}
+.center-title {
+    font-family: 'Gilroy-01';
+    font-size: 78px;
+}
+.title-span {
+    color: #49AD09;
+}
+.center-text {
+    color: #514040;
+    font-family: 'Gilroy-02';
+    font-size: 18px;
+    margin-top: -20px;
+}
+.center-buttons {
+    margin-top: 65px;
+}
+.center-btn {
+    background-color: #49AD09;
+    border: none;
+    color: white;
+    padding: 20px 45px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: .5s;
+}
+.center-btn:hover {
+    background-color: #3b9900;
+}
+.center-link {
+    margin-left: 35px;
+    font-family: 'Gilroy-02';
+    align-items: center;
+    font-size: 18px;
+    color: #514040;
+}
+.center-link:hover {
+    text-decoration: none;
+}
+.center-cntr {
+    margin: auto;
+}
+.center-rght {
+    position: absolute;
+    right: 0;
+}
+.center-lft {
+    position: absolute;
+    left: 0;
 }
