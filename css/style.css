@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Gilroy-01';
+    src: url(../fonts/Gilroy/Gilroy-ExtraBold.ttf);
+   }
+@font-face {
+    font-family: 'Gilroy-02';
+    src: url(../fonts/Gilroy/Gilroy-Medium.ttf);
+   }
+@font-face {
+    font-family: 'Gilroy-03';
+    src: url(../fonts/Gilroy/Gilroy-Bold.ttf);
+   }
+
+
+.nav-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+}
+.nav-logo {
+    font-family: 'Gilroy-03';
+    text-decoration: none;
+    color: black;
+}
+.nav-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.nav-link {
+    font-family: 'Gilroy-02';
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+.nav-link:hover {
+    letter-spacing: 2px;
+    color: #49AD09;
+}
+.nav-buttons {
+    font-family: 'Gilroy-02';
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.nav-btn-01 {
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+    transition: .5s;
+}
+.nav-btn-01:hover {
+    letter-spacing: 1px;
+    color: #49AD09;
+}
+.nav-btn-02 {
+    width: 160px;
+    background-color: #49AD09;
+    border: none;
+    color: white;
+    padding: 20px 45px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: -80px;
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+    transition: .5s;
+}
+.nav-btn-02:hover {
+    letter-spacing: 1px;
+    background-color: #3b9900;
+}
