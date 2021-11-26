@@ -8,9 +8,7 @@
     }
 }
 @media screen and (max-width: 1600px) {
-    .center-lft, .center-rght {
-        opacity: 0%;
-    }
+    
     .cards-cont {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -21,6 +19,9 @@
     } */
 }
 @media screen and (max-width: 1024px) {
+    .center-lft, .center-rght {
+        opacity: 0%;
+    }
     .nav-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
